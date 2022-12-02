@@ -1,0 +1,112 @@
+.item__eco {
+        width: 60px;
+        height: 60px;
+        left: 0px;
+        overflow: hidden;
+        position: absolute;
+        padding: 5px;
+
+
+    }
+
+.item__eco> img {
+        display: block;
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        text-indent: -9999px;
+        }
+
+.item__image {
+
+
+
+       display: block !important;
+        grid-area: main !important;
+        height: auto !important;
+        opacity: 1 !important;
+        transition-duration: 512ms !important;
+        transition-property: opacity, visibility !important;
+        transition-timing-function: ease-out !important;
+        visibility: visible !important;
+        width: 100% !important;
+    border: none !important;
+    }
+
+
+
+  .item__root {
+     position: relative !important;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+     transition: 0.3s !important;
+     border-radius: 5px !important;
+     float: left !important;
+     margin-left: 12px !important;
+     margin-right: 12px !important;
+}
+
+
+
+.item__root:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+}
+
+
+
+           .item__name {
+    color: #000 !important;
+    display: block !important;
+    float: left !important;
+    font-size: 22px !important;
+    font-weight: 900 !important;
+    line-height: 1em !important;
+    padding: 0.75em !important;
+    text-transform: uppercase !important;
+    width: 75% !important;
+}
+
+
+
+       .price {
+
+
+
+   color: #000 !important;
+    display: block !important;
+    float: left !important;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    padding: 1.5em .75em 2em 0em !important;
+
+
+
+   width: 25% !important;
+
+
+
+       }
+
+
+
+
+.productteaser .item__name, .productteaser .price {
+    position: initial !important ;
+    text-shadow: none !important;
+    font-size: 18px !important;
+        border: none !important;
+            }
+
+
+
+       @media (max-width: 992px) {
+    .productteaser .item__name {
+        font-size: 18px !important;
+        width: 100% !important;
+            border: none !important;
+    }
+    .productteaser .item__price {
+        font-size: 14px !important;
+        width: 100% !important;
+    border: none !important;
+    }
+}

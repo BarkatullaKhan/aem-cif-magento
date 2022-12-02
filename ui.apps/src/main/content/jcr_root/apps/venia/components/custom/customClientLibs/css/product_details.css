@@ -1,0 +1,14 @@
+.average_rating{
+	color:red;
+      padding: 1.5rem;
+    }
+
+.reviews_count{
+	padding: 1.5rem;
+    color:blue;
+    cursor:pointer
+
+     }
+.reviews_count:hover{
+    text-decoration: underline;
+     }
